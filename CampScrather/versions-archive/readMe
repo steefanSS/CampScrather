@@ -1,7 +1,5 @@
 #CampScrather (v11)
 
--There is a bug with error handling that needs fixing (I left it for the final version because it's tedious)
-
  #Dynamic Pricing feature
     -Refactor Show/Edit/New view of Campgrounds
     -Refactor the campgrounds model to add a new value for price
