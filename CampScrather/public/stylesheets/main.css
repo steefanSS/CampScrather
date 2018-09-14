@@ -1,0 +1,18 @@
+/*Images across whole thumbnail*/
+.thumbnail img{
+    width:100%;
+}
+/*no spacing inside thumbnail*/
+.thumbnail{
+    padding: 0;
+}
+
+/*Spacing for description which is inside thumbnail*/
+.thumbnail .caption-full{
+    padding: 9px;
+}
+
+/*Putting in line delete and edit button*/
+.delete-form{
+    display:inline;
+}

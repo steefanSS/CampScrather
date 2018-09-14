@@ -1,0 +1,34 @@
+#CampScrather (v11)
+
+-There is a bug with error handling that needs fixing (I left it for the final version because it's tedious)
+
+ #Dynamic Pricing feature
+    -Refactor Show/Edit/New view of Campgrounds
+    -Refactor the campgrounds model to add a new value for price
+    -Refactor Create campgrounds route so it account for dynamic price
+
+ #Refactor UI
+    -Use Bootstrap to style the login & sign up views
+        *Add class '.container' into header/footer and remove it from other views
+    -Update the nav-bar menu
+       *Convert .container-fluid to regular .container
+       *Add conditional active class to menu list items
+       *Add collapsable hamburger menu
+       *Make site responsive for mobile
+
+** - To temporary hold **
+<div class="collapse navbar-collapse">
+            <ul class=" nav navbar-nav navbar-right">
+                <% if(!currentUser){ %>
+                <li><a href="/login">Login In</a></li>
+                <li><a href="/register">Register</a></li>
+                <% }else{ %>
+                <li><a href="#">Signed In As <%= currentUser.username %></a></li>
+                <li><a href="/logout">Log Out</a></li>
+                <% } %>
+            </ul>
+        </div>
+
+
+
+
